@@ -1,0 +1,21 @@
+formation:
+  youngs_modulus: 3000000         # psi
+  poisson_ratio: 0.25
+  stress_tensor:
+    min_horizontal: 3000         # psi
+
+fluid:
+  viscosity: 1.0                 # cp
+  density: 1000                  # kg/m3
+
+proppant:
+  diameter: 0.0005               # m (0.5 mm)
+  concentration: 0.05            # volume fraction (e.g., 5%)
+
+injection:
+  rate: 90                      # bbl/min
+  duration: 3600                 # seconds (1 hour injection)
+
+simulation:
+  total_time: 7200               # seconds (2 hours)
+  time_step: 5                  # seconds per simulation step
